@@ -17,9 +17,9 @@
             $('#settingsmodal').modal('show');
         });
         $('#exportbutton').click(function (e) { // Download files
-            download('index.html', UIFACTORY.CodeEditor.HTML.Editor.getValue());
-            download('style.css', UIFACTORY.CodeEditor.CSS.Editor.getValue());
-            download('app.js', UIFACTORY.CodeEditor.JS.Editor.getValue());
+            download('index.html', SCE.CodeEditor.HTML.Editor.getValue());
+            download('style.css', SCE.CodeEditor.CSS.Editor.getValue());
+            download('app.js', SCE.CodeEditor.JS.Editor.getValue());
         });
     }
 
@@ -58,9 +58,9 @@
         
         $('#editortheme').dropdown({  // Switch editor theme accordingly
             onChange: function (value, text, $selectedItem) {
-                UIFACTORY.CodeEditor.HTML.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
-                UIFACTORY.CodeEditor.CSS.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
-                UIFACTORY.CodeEditor.JS.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
+                SCE.CodeEditor.HTML.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
+                SCE.CodeEditor.CSS.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
+                SCE.CodeEditor.JS.Editor.setTheme("ace/theme/" + $selectedItem.attr("data-value"));
 
             }
         });
