@@ -9,7 +9,7 @@ SCE.CodeEditor.JS = {};
 
 (function () {
     
-    $('sui-loader').html('<div id="loadingbar"></div>');
+    //$('sui-loader').prepend('<div id="loadingbar"></div>');
     $(document).ready(function () {
 
         
