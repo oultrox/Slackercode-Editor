@@ -25,13 +25,3 @@ sui-column-9 {width: 75%;float: left;padding: 0px;/*border-color: black;border-s
 sui-column-10 {width: 83.33%;float: left;padding: 0px;/*border-color: black;border-style: dashed;border-width: 0.01em;*//*overflow: auto;*/}
 sui-column-11 {width: 91.66%;float: left;padding: 0px;/*border-color: black;border-style: dashed;border-width: 0.01em;*//*overflow: auto;*/}
 sui-column-12 {width: 100%;float: left;padding: 0px;/*border-color: black;border-style: dashed;border-width: 0.01em;*//*overflow: auto;*/}
-
-
-
-
-
-
-
-.button{
-    z-index: 999;
-}
