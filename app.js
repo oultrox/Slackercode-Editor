@@ -26,7 +26,13 @@ SCE.CodeEditor.JS = {};
         
         $('sui-codeeditor').load("sections/codeeditor/codeeditor.html", function () {
                 $('.progress').progress({percent: 100});
-                setTimeout(function(){$('sui-loader').fadeOut(1000);},1000);
+                setTimeout(function(){$('sui-loader').fadeOut(600,function(){
+                    $('sui-loader').remove();
+                    $('sui-column-12').fadeIn(600);
+                    $('sui-column-6').fadeIn(600);
+                    $('sui-column-6').fadeIn(600);
+                });},600);
+                
         });
 
 
