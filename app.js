@@ -10,7 +10,7 @@ SCE.CodeEditor.JS = {};
 (function () {
     $(document).ready(function () {
 
-        $('body').addClass('ui loader');  
+        $('body').wrap('<div class="ui inverted segment"><div class="ui active inverted loader"></div></div>');  
         $('sui-browser').load("sections/browser/browser.html", function () {
                 
         });
