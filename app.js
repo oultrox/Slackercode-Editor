@@ -8,6 +8,8 @@ SCE.CodeEditor.JS = {};
 
 
 (function () {
+    
+    $('sui-loader').html('<div></div>');
     $(document).ready(function () {
 
         
