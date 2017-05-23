@@ -26,7 +26,7 @@ SCE.CodeEditor.JS = {};
         
         $('sui-codeeditor').load("sections/codeeditor/codeeditor.html", function () {
                 $('.progress').progress({percent: 100});
-            
+                setTimeout(function(){$('sui-loader').fadeOut(1000);},1000);
         });
 
 
