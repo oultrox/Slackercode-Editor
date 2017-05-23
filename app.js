@@ -1,4 +1,5 @@
 var SCE = {};
+SCE.Loader = 0;
 SCE.Browser = {};
 SCE.CodeEditor = {};
 SCE.CodeEditor.HTML = {};
@@ -11,7 +12,7 @@ SCE.CodeEditor.JS = {};
 
 
         $('sui-browser').load("sections/browser/browser.html", function () {
-
+                            
         });
         
         $('sui-codeeditor').load("sections/codeeditor/codeeditor.html", function () {
