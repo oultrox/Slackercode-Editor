@@ -10,7 +10,7 @@ SCE.CodeEditor.JS = {};
 (function () {
     $(document).ready(function () {
 
-        $('sui-column-6').addClass('ui loader inverted>');  
+       
         $('sui-browser').load("sections/browser/browser.html", function () {
                 
         });
