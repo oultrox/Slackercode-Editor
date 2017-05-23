@@ -1,12 +1,12 @@
 (function () {
 
     $(document).ready(function () {
-        UIFACTORY.Browser = $('#browsercontent');
-        UIFACTORY.Browser.DocumentHTML = $('#browsercontent')[0].contentWindow.document.documentElement.innerHTML;
-        UIFACTORY.Browser.Body = $('#browsercontent').contents().find('body');
-        UIFACTORY.Browser.Head = $('#browsercontent').contents().find('head');
-        UIFACTORY.Browser.Head.append("<style id='cssstyle'></style>");
-        UIFACTORY.Browser.Head.append("<script id='jsscript'>function execute(c){eval(c)}</script>");
+        SCE.Browser = $('#browsercontent');
+        SCE.Browser.DocumentHTML = $('#browsercontent')[0].contentWindow.document.documentElement.innerHTML;
+        SCE.Browser.Body = $('#browsercontent').contents().find('body');
+        SCE.Browser.Head = $('#browsercontent').contents().find('head');
+        SCE.Browser.Head.append("<style id='cssstyle'></style>");
+        SCE.Browser.Head.append("<script id='jsscript'>function execute(c){eval(c)}</script>");
     });
 
 })();
