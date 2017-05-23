@@ -1,9 +1,9 @@
-var UIFACTORY = {};
-UIFACTORY.Browser = {};
-UIFACTORY.CodeEditor = {};
-UIFACTORY.CodeEditor.HTML = {};
-UIFACTORY.CodeEditor.CSS = {};
-UIFACTORY.CodeEditor.JS = {};
+var SCE = {};
+SCE.Browser = {};
+SCE.CodeEditor = {};
+SCE.CodeEditor.HTML = {};
+SCE.CodeEditor.CSS = {};
+SCE.CodeEditor.JS = {};
 
 
 (function () {
@@ -20,12 +20,6 @@ UIFACTORY.CodeEditor.JS = {};
         $('sui-toolbar').load("sections/toolbar/toolbar.html", function () {
 
         });
-  
-
-
-
-       
-
 
     });
 })();
