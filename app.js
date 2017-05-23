@@ -9,7 +9,7 @@ SCE.CodeEditor.JS = {};
 
 (function () {
     
-    $('sui-loader').html('<div class="ui big progress"><div class="bar"></div><div class="label">Big</div></div>');
+    $('sui-loader').html('<div style="width:inherit" class="ui teal progress"><div class="bar"></div><div class="label">Loading...</div></div>');
     $('.progress').progress({percent: 0});
     $(document).ready(function () {
 
