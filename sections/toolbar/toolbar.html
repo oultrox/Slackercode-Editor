@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="sections/toolbar/toolbar.css" rel="stylesheet">
+  <script type="text/javascript" src="sections/toolbar/toolbar.js"></script>
+</head>
+
+<body>
+
+
+  <div id="toolbar" class="ui top attached menu " style="width: 100%;margin:0px">
+    
+    <div id="filedropdown" class="ui dropdown icon item">
+      File
+      <div class="menu">
+        <div id="exportbutton" class="item">
+          Export
+        </div>
+        <div id="settingsbutton" class="item">
+          Setting
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+
+
+
+  <div id="settingsmodal" class="ui modal">
+
+    <h2 class="ui header">
+      <i class="settings icon"></i>
+      <div class="content">
+        Settings
+        <div class="sub header">Manage your preferences</div>
+      </div>
+    </h2>
+
+    <div class="content">
+
+      <div class="ui block header">Global settings</div>
+
+      <h4>Theme</h4>
+      <div id="globaltheme" class="ui selection dropdown">
+        <input type="hidden" name="gender">
+        <i class="dropdown icon"></i>
+        <div class="default text">Theme</div>
+        <div class="menu">
+          <div class="item" data-value="light">Light</div>
+          <div class="item" data-value="dark">Dark</div>
+        </div>
+      </div>
+
+
+      <div class="ui block header">Editor settings</div>
+
+      <h4>Theme</h4>
+      <div id="editortheme" class="ui selection dropdown">
+        <input type="hidden" name="gender">
+        <i class="dropdown icon"></i>
+        <div class="default text">Theme</div>
+        <div class="menu">
+          <div class="item" data-value="chrome">Chrome</div>
+          <div class="item" data-value="ambiance">Ambiance</div>
+          <div class="item" data-value="chaos">Chaos</div>
+          <div class="item" data-value="clouds">Clouds</div>
+          <div class="item" data-value="clouds_midnight">Clouds midnight</div>
+          <div class="item" data-value="cobalt">Cobalt</div>
+          <div class="item" data-value="crimson_editor">Crimson editor</div>
+          <div class="item" data-value="dawn">Dawn</div>
+          <div class="item" data-value="dreamweaver">Dreamweaver</div>
+          <div class="item" data-value="eclipse">Eclipse</div>
+          <div class="item" data-value="github">Github</div>
+          <div class="item" data-value="gob">Gob</div>
+          <div class="item" data-value="gruvbox">Gruvbox</div>
+          <div class="item" data-value="idle_fingers">Idle fingers</div>
+          <div class="item" data-value="iplastic">Iplastic</div>
+          <div class="item" data-value="katzenmilch">Katzenmilch</div>
+          <div class="item" data-value="kr_theme">Kr theme</div>
+          <div class="item" data-value="kuroir">Kuroir</div>
+          <div class="item" data-value="merbivore">Merbivore</div>
+          <div class="item" data-value="merbivore_soft">Merbivore soft</div>
+          <div class="item" data-value="mono_industrial">Mono industrial</div>
+          <div class="item" data-value="monokai">Monokai</div>
+          <div class="item" data-value="pastel_on_dark">Pastel on dark</div>
+          <div class="item" data-value="solarized_dark">Solarized dark</div>
+          <div class="item" data-value="solarized_light">Solarized light</div>
+          <div class="item" data-value="sqlserver">Sqlserver</div>
+          <div class="item" data-value="terminal">Terminal</div>
+          <div class="item" data-value="textmate">Textmate</div>
+          <div class="item" data-value="tomorrow">Tomorrow</div>
+          <div class="item" data-value="tomorrow_night">Tomorrow night</div>
+          <div class="item" data-value="tomorrow_night_blue">Tomorrow night blue</div>
+          <div class="item" data-value="tomorrow_night_bright">Tomorrow night bright</div>
+          <div class="item" data-value="tomorrow_night_eighties">Tomorrow night eighties</div>
+          <div class="item" data-value="twilight">Twilight</div>
+          <div class="item" data-value="vibrant_ink">Vibrant ink</div>
+          <div class="item" data-value="xcode">Xcode</div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <div class="actions">
+      <div class="ui black deny button">
+        Cancel
+      </div>
+      <div class="ui positive right button">
+        Save
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
