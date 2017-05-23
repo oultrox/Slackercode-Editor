@@ -10,9 +10,9 @@ SCE.CodeEditor.JS = {};
 (function () {
     $(document).ready(function () {
 
-
+        $('body').addClass('ui loader');  
         $('sui-browser').load("sections/browser/browser.html", function () {
-                            
+                
         });
         
         $('sui-codeeditor').load("sections/codeeditor/codeeditor.html", function () {
